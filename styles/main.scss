@@ -25,6 +25,10 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: white;
+}
+
 header {
   background-image: url('../images/header-image.jpg');
   background-position: center center;
@@ -61,7 +65,13 @@ header {
 
 .main-nav {
   @include span-columns(12);
-  border: solid green 3px;
+  border: solid white 3px;
+  border-radius: 10px;
+  background-color: #bd7b58;
+  padding-top: 10px;
+  height: 60px;
+  color: white;
+  font-size: 30px;
 }
 
 .main-nav-ul {
@@ -74,11 +84,19 @@ header {
   text-align: center;
 }
 
+.main-nav-link a:visited {
+  color: white;
+}
+
 .intro-container {
   @include span-columns(12);
+  border-bottom: solid white 3px;
   background-image: url('../images/berries.jpg');
   background-position: bottom center;
   background-size: cover;
+  padding-top: 30px;
+  height: 530px;
+  color: white;
 }
 
 .intro {
@@ -88,24 +106,29 @@ header {
 }
 
 .intro-photo {
+  border: solid white 5px;
   border-radius: 150px;
   height: 220px;
 }
 
-.booking-container {
-  @include span-columns(6 of 12);
-  @include shift(1);
-  height: 300px;
-  text-align: center;
+.intro-text {
+  margin-top: -26px;
+  border: solid white 5px;
+  border-radius: 15px;
+  background-color: rgba(175, 92, 88, .6);
+  padding: 20px;
+  font-size: 20px;
 }
 
-.booking-container-link {
+.booking-link {
+  @include span-columns(6 of 12);
+  @include shift(1);
   display: inline-block;
-  margin-top: 45px;
+  margin-top: 100px;
   border: solid white 7px;
   border-radius: 15px;
   box-shadow: 10px 5px 5px black;
-  background-color: rgba(255, 255, 255, .5);
+  background-color: rgba(175, 92, 88, .9);
   padding-top: 22px;
   width: 500px;
   height: 200px;
@@ -113,8 +136,17 @@ header {
   font-size: 60px;
 }
 
+.reviews-container {
+  @include span-columns(12);
+  background-image: url('../images/wood-snake.jpg');
+  background-position: center center;
+  background-size: cover;
+  padding-top: 30px;
+  height: 580px;
+}
+
 .reviews {
-  @include span-columns(10);
+  @include span-columns(10 of 12);
   @include shift(1);
 }
 
@@ -124,18 +156,27 @@ header {
 }
 
 .review-photo {
+  border: solid white 3px;
   border-radius: 100px;
   width: 150px;
 }
 
 .review-text {
-  @include span-columns(1.5 of 2.5);
-  @include shift(.5);
+  @include span-columns(2 of 2.5);
+  @include shift(.25);
+  margin-top: -15px;
+  border: solid white 3px;
+  border-radius: 10px;
+  background-color: rgba(190, 164, 148, .7);
+  padding: 15px;
+  color: white;
+  font-size: 18px;
 }
 
 footer {
   @include span-columns(12);
-  border: solid green 3px;
+  background-color: #929265;
+  padding: 15px;
 }
 
 .bottom-nav {

@@ -27,6 +27,9 @@ li {
 a {
   text-decoration: none; }
 
+a:visited {
+  color: white; }
+
 header {
   background-image: url("../images/header-image.jpg");
   background-position: center center;
@@ -66,7 +69,13 @@ header {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  border: solid green 3px; }
+  border: solid white 3px;
+  border-radius: 10px;
+  background-color: #bd7b58;
+  padding-top: 10px;
+  height: 60px;
+  color: white;
+  font-size: 30px; }
   .main-nav:last-child {
     margin-right: 0; }
 
@@ -88,14 +97,21 @@ header {
   .main-nav-link:last-child {
     margin-right: 0; }
 
+.main-nav-link a:visited {
+  color: white; }
+
 .intro-container {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
+  border-bottom: solid white 3px;
   background-image: url("../images/berries.jpg");
   background-position: bottom center;
-  background-size: cover; }
+  background-size: cover;
+  padding-top: 30px;
+  height: 530px;
+  color: white; }
   .intro-container:last-child {
     margin-right: 0; }
 
@@ -110,32 +126,50 @@ header {
     margin-right: 0; }
 
 .intro-photo {
+  border: solid white 5px;
   border-radius: 150px;
   height: 220px; }
 
-.booking-container {
+.intro-text {
+  margin-top: -26px;
+  border: solid white 5px;
+  border-radius: 15px;
+  background-color: rgba(175, 92, 88, 0.6);
+  padding: 20px;
+  font-size: 20px; }
+
+.booking-link {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 48.82117%;
   margin-left: 8.5298%;
-  height: 300px;
-  text-align: center; }
-  .booking-container:last-child {
-    margin-right: 0; }
-
-.booking-container-link {
   display: inline-block;
-  margin-top: 45px;
+  margin-top: 100px;
   border: solid white 7px;
   border-radius: 15px;
   box-shadow: 10px 5px 5px black;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(175, 92, 88, 0.9);
   padding-top: 22px;
   width: 500px;
   height: 200px;
   text-align: center;
   font-size: 60px; }
+  .booking-link:last-child {
+    margin-right: 0; }
+
+.reviews-container {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background-image: url("../images/wood-snake.jpg");
+  background-position: center center;
+  background-size: cover;
+  padding-top: 30px;
+  height: 580px; }
+  .reviews-container:last-child {
+    margin-right: 0; }
 
 .reviews {
   float: left;
@@ -156,6 +190,7 @@ header {
     margin-right: 0; }
 
 .review-photo {
+  border: solid white 3px;
   border-radius: 100px;
   width: 150px; }
 
@@ -163,8 +198,15 @@ header {
   float: left;
   display: block;
   margin-right: 12.43037%;
-  width: 55.02785%;
-  margin-left: 22.48607%; }
+  width: 77.51393%;
+  margin-left: 11.24304%;
+  margin-top: -15px;
+  border: solid white 3px;
+  border-radius: 10px;
+  background-color: rgba(190, 164, 148, 0.7);
+  padding: 15px;
+  color: white;
+  font-size: 18px; }
   .review-text:last-child {
     margin-right: 0; }
 
@@ -173,7 +215,8 @@ footer {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  border: solid green 3px; }
+  background-color: #929265;
+  padding: 15px; }
   footer:last-child {
     margin-right: 0; }
 
