@@ -1,0 +1,149 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-image: url('../images/header-image.jpg');
+  background-position: center center;
+  background-size: cover;
+  min-height: 100%;
+  text-align: center;
+  color: white;
+}
+
+.top-nav {
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+.top-nav-link {
+  display: inline-block;
+  padding: 10px;
+}
+
+.top-nav-link a:visited {
+  color: white;
+}
+
+.welcome {
+  padding-top: 5%;
+  text-shadow: 1px 1px 2px black;
+  font-size: 80px;
+}
+
+.content-container {
+  @include outer-container(100%);
+}
+
+.main-nav {
+  @include span-columns(12);
+  border: solid green 3px;
+}
+
+.main-nav-ul {
+  @include span-columns(10);
+  @include shift(1);
+}
+
+.main-nav-link {
+  @include span-columns(2 of 10);
+  text-align: center;
+}
+
+.intro-container {
+  @include span-columns(12);
+  background-image: url('../images/berries.jpg');
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.intro {
+  @include span-columns(4 of 12);
+  @include shift(1);
+  text-align: center;
+}
+
+.intro-photo {
+  border-radius: 150px;
+  height: 220px;
+}
+
+.booking-container {
+  @include span-columns(6 of 12);
+  @include shift(1);
+  height: 300px;
+  text-align: center;
+}
+
+.booking-container-link {
+  display: inline-block;
+  margin-top: 45px;
+  border: solid white 7px;
+  border-radius: 15px;
+  box-shadow: 10px 5px 5px black;
+  background-color: rgba(255, 255, 255, .5);
+  padding-top: 22px;
+  width: 500px;
+  height: 200px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.reviews {
+  @include span-columns(10);
+  @include shift(1);
+}
+
+.review {
+  @include span-columns(2.5 of 10);
+  text-align: center;
+}
+
+.review-photo {
+  border-radius: 100px;
+  width: 150px;
+}
+
+.review-text {
+  @include span-columns(1.5 of 2.5);
+  @include shift(.5);
+}
+
+footer {
+  @include span-columns(12);
+  border: solid green 3px;
+}
+
+.bottom-nav {
+  @include span-columns(10 of 12);
+  @include shift(1);
+  text-align: center;
+}
+
+.bottom-nav-link {
+  @include span-columns(2 of 10);
+}

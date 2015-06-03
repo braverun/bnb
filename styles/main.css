@@ -1,0 +1,198 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  height: 100%; }
+
+body {
+  height: 100%; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+header {
+  background-image: url("../images/header-image.jpg");
+  background-position: center center;
+  background-size: cover;
+  min-height: 100%;
+  text-align: center;
+  color: white; }
+
+.top-nav {
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 20px; }
+
+.top-nav-link {
+  display: inline-block;
+  padding: 10px; }
+
+.top-nav-link a:visited {
+  color: white; }
+
+.welcome {
+  padding-top: 5%;
+  text-shadow: 1px 1px 2px black;
+  font-size: 80px; }
+
+.content-container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  .content-container::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.main-nav {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  border: solid green 3px; }
+  .main-nav:last-child {
+    margin-right: 0; }
+
+.main-nav-ul {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  margin-left: 8.5298%; }
+  .main-nav-ul:last-child {
+    margin-right: 0; }
+
+.main-nav-link {
+  float: left;
+  display: block;
+  margin-right: 2.84259%;
+  width: 17.72593%;
+  text-align: center; }
+  .main-nav-link:last-child {
+    margin-right: 0; }
+
+.intro-container {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background-image: url("../images/berries.jpg");
+  background-position: bottom center;
+  background-size: cover; }
+  .intro-container:last-child {
+    margin-right: 0; }
+
+.intro {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-left: 8.5298%;
+  text-align: center; }
+  .intro:last-child {
+    margin-right: 0; }
+
+.intro-photo {
+  border-radius: 150px;
+  height: 220px; }
+
+.booking-container {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-left: 8.5298%;
+  height: 300px;
+  text-align: center; }
+  .booking-container:last-child {
+    margin-right: 0; }
+
+.booking-container-link {
+  display: inline-block;
+  margin-top: 45px;
+  border: solid white 7px;
+  border-radius: 15px;
+  box-shadow: 10px 5px 5px black;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-top: 22px;
+  width: 500px;
+  height: 200px;
+  text-align: center;
+  font-size: 60px; }
+
+.reviews {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  margin-left: 8.5298%; }
+  .reviews:last-child {
+    margin-right: 0; }
+
+.review {
+  float: left;
+  display: block;
+  margin-right: 2.84259%;
+  width: 22.86806%;
+  text-align: center; }
+  .review:last-child {
+    margin-right: 0; }
+
+.review-photo {
+  border-radius: 100px;
+  width: 150px; }
+
+.review-text {
+  float: left;
+  display: block;
+  margin-right: 12.43037%;
+  width: 55.02785%;
+  margin-left: 22.48607%; }
+  .review-text:last-child {
+    margin-right: 0; }
+
+footer {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  border: solid green 3px; }
+  footer:last-child {
+    margin-right: 0; }
+
+.bottom-nav {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  margin-left: 8.5298%;
+  text-align: center; }
+  .bottom-nav:last-child {
+    margin-right: 0; }
+
+.bottom-nav-link {
+  float: left;
+  display: block;
+  margin-right: 2.84259%;
+  width: 17.72593%; }
+  .bottom-nav-link:last-child {
+    margin-right: 0; }
+
+/*# sourceMappingURL=main.css.map */
