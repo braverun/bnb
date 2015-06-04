@@ -32,7 +32,8 @@ li {
   list-style: none; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: white; }
 
 a:visited {
   color: white; }
@@ -84,9 +85,13 @@ header:before {
 .welcome {
   display: block;
   padding-top: 9%;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 3px 3px 5px black;
   font-family: 'Lobster Two', cursive;
   font-size: 100px; }
+
+.down-arrow {
+  text-shadow: 3px 3px 5px black;
+  font-size: 40px; }
 
 .content-container {
   max-width: 100%;
