@@ -52,9 +52,9 @@ header {
   border-radius: 10px;
   background-color: rgba(225, 112, 73, 0.7);
   padding: 10px;
-  width: 60px;
+  width: 65px;
   text-align: center;
-  font-size: 13px; }
+  font-size: 14px; }
 
 .top-nav-link:hover {
   background-color: rgba(54, 93, 159, 0.7); }
@@ -84,7 +84,6 @@ header {
   background-color: #be7b5c;
   padding-top: 10px;
   height: 60px;
-  color: white;
   font-size: 24px; }
   .main-nav:last-child {
     margin-right: 0; }
@@ -98,14 +97,21 @@ header {
   .main-nav-ul:last-child {
     margin-right: 0; }
 
-.main-nav-link {
+.main-nav-li {
   float: left;
   display: block;
   margin-right: 2.84259%;
   width: 17.72593%;
   text-align: center; }
-  .main-nav-link:last-child {
+  .main-nav-li:last-child {
     margin-right: 0; }
+
+.main-nav-link {
+  transition: color 300ms;
+  color: white; }
+
+.main-nav-link:hover {
+  color: #f4c57b; }
 
 .intro-container {
   float: left;
@@ -173,8 +179,8 @@ header {
 
 .booking-link:active {
   transform: translate(0, 5px);
-  border-bottom: 2.5px solid;
-  border-right: 2.5px solid; }
+  border-right: 2.5px solid;
+  border-bottom: 2.5px solid; }
 
 .reviews-container {
   float: left;
@@ -185,7 +191,7 @@ header {
   background-position: center center;
   background-size: cover;
   padding-top: 30px;
-  height: 530px; }
+  height: 620px; }
   .reviews-container:last-child {
     margin-right: 0; }
 
@@ -249,13 +255,19 @@ footer {
   .bottom-nav:last-child {
     margin-right: 0; }
 
-.bottom-nav-link {
+.bottom-nav-li {
   float: left;
   display: block;
   margin-right: 2.84259%;
-  width: 17.72593%;
-  font-size: 14px; }
-  .bottom-nav-link:last-child {
+  width: 17.72593%; }
+  .bottom-nav-li:last-child {
     margin-right: 0; }
+
+.bottom-nav-link {
+  transition: color 300ms;
+  font-size: 14px; }
+
+.bottom-nav-link:hover {
+  color: #453736; }
 
 /*# sourceMappingURL=main.css.map */
