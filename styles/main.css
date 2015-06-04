@@ -63,6 +63,8 @@ header:before {
   background-image: url("../images/barn2.jpg"); }
 
 .top-nav {
+  z-index: 10;
+  position: relative;
   padding-top: 10px;
   text-align: right; }
 
@@ -299,5 +301,19 @@ footer {
 
 .bottom-nav-link:hover {
   color: #453736; }
+
+/* Booking Page */
+.booking-body {
+  background-image: url("../images/bed.jpg");
+  background-position: center center;
+  background-size: cover; }
+
+.main-nav-booking {
+  background-color: #718e83; }
+
+.booking-footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #958e7d; }
 
 /*# sourceMappingURL=main.css.map */
