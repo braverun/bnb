@@ -311,6 +311,22 @@ footer {
 .main-nav-booking {
   background-color: #718e83; }
 
+.google-calendar {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-left: 8.5298%;
+  margin-top: 50px;
+  background-color: rgba(165, 201, 187, 0.5);
+  border: 0;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  height: 350px; }
+  .google-calendar:last-child {
+    margin-right: 0; }
+
 .booking-footer {
   position: fixed;
   bottom: 0;
