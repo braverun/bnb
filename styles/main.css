@@ -27,6 +27,16 @@ body {
   perspective: 1px;
   transform-style: preserve-3d; }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-shadow: 3px 3px 5px black;
+  font-family: 'Lobster Two', cursive;
+  color: white; }
+
 li {
   display: inline-block;
   list-style: none; }
@@ -57,7 +67,7 @@ header,
 header:before {
   background: 50% 50% / cover; }
 
-.welcom-header {
+.welcome-header {
   transform: translateZ(-2px) scale(3);
   z-index: -1;
   background-image: url("../images/barn2.jpg"); }
@@ -87,8 +97,6 @@ header:before {
 .welcome {
   display: block;
   padding-top: 9%;
-  text-shadow: 3px 3px 5px black;
-  font-family: 'Lobster Two', cursive;
   font-size: 100px; }
 
 .down-arrow {
@@ -152,8 +160,7 @@ header:before {
   background-image: url("../images/berries.jpg");
   background-position: bottom center;
   background-size: cover;
-  padding-top: 30px;
-  height: 675px;
+  padding: 30px;
   color: white; }
   .intro-container:last-child {
     margin-right: 0; }
@@ -220,10 +227,14 @@ header:before {
   background-image: url("../images/wood-snake.jpg");
   background-position: center center;
   background-size: cover;
-  padding-top: 30px;
-  height: 650px; }
+  padding: 30px;
+  text-align: center; }
   .reviews-container:last-child {
     margin-right: 0; }
+
+.reviews-heading {
+  padding-bottom: 30px;
+  font-size: 30px; }
 
 .reviews {
   float: left;
@@ -310,21 +321,27 @@ footer {
 .main-nav-booking {
   background-color: #8fc1e2; }
 
+.booking-heading {
+  padding-top: 80px;
+  text-align: center;
+  color: white;
+  font-size: 40px; }
+
 .booking-content-left {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 31.76157%;
   margin-left: 8.5298%;
+  margin-top: 25px;
   text-align: center; }
   .booking-content-left:last-child {
     margin-right: 0; }
 
 .google-calendar {
   display: block;
-  margin-top: 50px;
   border: solid white 5px;
-  border-radius: 20px;
+  border-radius: 15px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   background-color: rgba(219, 160, 102, 0.7);
   padding: 40px;
@@ -354,7 +371,6 @@ footer {
   margin-right: 2.35765%;
   width: 40.29137%;
   margin-left: 8.5298%;
-  margin-top: 70px;
   text-align: center; }
   .booking-content-right:last-child {
     margin-right: 0; }
@@ -367,7 +383,7 @@ footer {
 .booking-text {
   margin-top: -70px;
   border: solid white 5px;
-  border-radius: 20px;
+  border-radius: 15px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   background-color: rgba(219, 160, 102, 0.7);
   padding: 15px;

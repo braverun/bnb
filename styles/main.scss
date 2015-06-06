@@ -23,6 +23,17 @@ body {
   transform-style: preserve-3d;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-shadow: 3px 3px 5px black;
+  font-family: 'Lobster Two', cursive;
+  color: white;
+}
+
 li {
   display: inline-block;
   list-style: none;
@@ -59,7 +70,7 @@ header:before {
   background: 50% 50% / cover;
 }
 
-.welcom-header {
+.welcome-header {
   transform: translateZ(-2px) scale(3);
   z-index: -1;
   background-image: url('../images/barn2.jpg');
@@ -93,8 +104,6 @@ header:before {
 .welcome {
   display: block;
   padding-top: 9%;
-  text-shadow: 3px 3px 5px black;
-  font-family: 'Lobster Two', cursive;
   font-size: 100px;
 }
 
@@ -142,8 +151,7 @@ header:before {
   background-image: url('../images/berries.jpg');
   background-position: bottom center;
   background-size: cover;
-  padding-top: 30px;
-  height: 675px;
+  padding: 30px;
   color: white;
 }
 
@@ -202,8 +210,13 @@ header:before {
   background-image: url('../images/wood-snake.jpg');
   background-position: center center;
   background-size: cover;
-  padding-top: 30px;
-  height: 650px;
+  padding: 30px;
+  text-align: center;
+}
+
+.reviews-heading {
+  padding-bottom: 30px;
+  font-size: 30px;
 }
 
 .reviews {
@@ -275,17 +288,24 @@ $booking-background-color: rgba(219, 160, 102, .7);
   background-color: #8fc1e2;
 }
 
+.booking-heading {
+  padding-top: 80px;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
 .booking-content-left {
   @include span-columns(4);
   @include shift(1);
+  margin-top: 25px;
   text-align: center;
 }
 
 .google-calendar {
   display: block;
-  margin-top: 50px;
   border: solid white 5px;
-  border-radius: 20px;
+  border-radius: 15px;
   box-shadow: 0 0 5px rgba(0, 0, 0, .5);
   background-color: $booking-background-color;
   padding: 40px;
@@ -316,7 +336,6 @@ $booking-background-color: rgba(219, 160, 102, .7);
 .booking-content-right {
   @include span-columns(5);
   @include shift(1);
-  margin-top: 70px;
   text-align: center;
 }
 
@@ -329,7 +348,7 @@ $booking-background-color: rgba(219, 160, 102, .7);
 .booking-text {
   margin-top: -70px;
   border: solid white 5px;
-  border-radius: 20px;
+  border-radius: 15px;
   box-shadow: 0 0 5px rgba(0, 0, 0, .5);
   background-color: $booking-background-color;
   padding: 15px;
