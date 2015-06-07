@@ -391,8 +391,13 @@ footer {
   color: white; }
 
 .booking-footer {
-  position: fixed;
-  bottom: 0;
+  margin-top: 35px;
   background-color: #c09b3f; }
+
+/* About Page */
+.about-body {
+  background-image: url("../images/sheep.jpg");
+  background-position: center center;
+  background-size: cover; }
 
 /*# sourceMappingURL=main.css.map */
