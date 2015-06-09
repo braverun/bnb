@@ -100,8 +100,9 @@ header:before {
   font-size: 100px; }
 
 .down-arrow {
+  padding-top: 180px;
   text-shadow: 3px 3px 5px black;
-  font-size: 40px; }
+  font-size: 60px; }
 
 .content-container {
   max-width: 100%;
