@@ -417,10 +417,12 @@ footer {
   margin-right: 2.35765%;
   width: 31.76157%;
   margin-left: 17.05961%;
-  text-align: center;
-  background-color: rgba(170, 175, 58, 0.6);
+  margin-top: 75px;
   border: solid white 3px;
-  border-radius: 15px; }
+  border-radius: 15px;
+  background-color: rgba(170, 175, 58, 0.7);
+  padding: 15px;
+  text-align: center; }
   .about-text:last-child {
     margin-right: 0; }
 
@@ -430,18 +432,37 @@ footer {
   margin-right: 2.35765%;
   width: 23.23176%;
   margin-left: 8.5298%;
-  background-color: rgba(170, 175, 58, 0.6);
+  margin-top: 25px;
   border: solid white 3px;
-  border-radius: 15px; }
+  border-radius: 15px;
+  background-color: rgba(170, 175, 58, 0.7);
+  padding: 15px; }
   .schedule:last-child {
     margin-right: 0; }
 
 .schedule-heading {
-  text-align: center; }
+  text-align: center;
+  font-size: 24px; }
 
 .schedule-list-item {
   display: block;
   padding-top: 15px; }
+
+.about-booking-link {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  margin-top: 25px;
+  border-width: 3px;
+  background-color: rgba(170, 175, 58, 0.7); }
+  .about-booking-link:last-child {
+    margin-right: 0; }
+  .about-booking-link :hover {
+    background-color: rgba(200, 161, 74, 0.7); }
+
+.activities-heading {
+  font-size: 24px; }
 
 .activities {
   float: left;
@@ -449,9 +470,12 @@ footer {
   margin-right: 2.35765%;
   width: 65.88078%;
   margin-left: 17.05961%;
-  background-color: rgba(170, 175, 58, 0.6);
+  margin-top: 35px;
   border: solid white 3px;
   border-radius: 15px;
+  background-color: rgba(170, 175, 58, 0.7);
+  padding: 10px;
+  padding-top: 15px;
   text-align: center; }
   .activities:last-child {
     margin-right: 0; }
@@ -459,18 +483,8 @@ footer {
 .activity {
   padding: 10px; }
 
-.about-booking-link {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 23.23176%;
-  margin-top: 0; }
-  .about-booking-link:last-child {
-    margin-right: 0; }
-
 .about-footer {
-  position: absolute;
-  bottom: 0;
+  margin-top: 50px;
   background-color: #566300; }
 
 /*# sourceMappingURL=main.css.map */

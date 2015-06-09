@@ -365,6 +365,8 @@ $booking-background-color: rgba(219, 160, 102, .7);
 
 /* About Page */
 
+$about-background-color: rgba(170, 175, 58, .7);
+
 .about-body {
   background-image: url('../images/sheep.jpg');
   background-position: center center;
@@ -385,24 +387,27 @@ $booking-background-color: rgba(219, 160, 102, .7);
 .about-text {
   @include span-columns(4);
   @include shift(2);
-  text-align: center;
-  background-color: rgba(170, 175, 58, .6);
+  margin-top: 75px;
   border: solid white 3px;
   border-radius: 15px;
-
-
+  background-color: $about-background-color;
+  padding: 15px;
+  text-align: center;
 }
 
 .schedule {
   @include span-columns(3);
   @include shift(1);
-  background-color: rgba(170, 175, 58, .6);
+  margin-top: 25px;
   border: solid white 3px;
   border-radius: 15px;
+  background-color: $about-background-color;
+  padding: 15px;
 }
 
 .schedule-heading {
   text-align: center;
+  font-size: 24px;
 }
 
 .schedule-list-item {
@@ -410,12 +415,30 @@ $booking-background-color: rgba(219, 160, 102, .7);
   padding-top: 15px;
 }
 
+.about-booking-link {
+  @include span-columns(3);
+  margin-top: 25px;
+  border-width: 3px;
+  background-color: $about-background-color;
+
+  :hover {
+    background-color: rgba(200, 161, 74, .7);
+  }
+}
+
+.activities-heading {
+  font-size: 24px;
+}
+
 .activities {
   @include span-columns(8);
   @include shift(2);
-  background-color: rgba(170, 175, 58, .6);
+  margin-top: 35px;
   border: solid white 3px;
   border-radius: 15px;
+  background-color: $about-background-color;
+  padding: 10px;
+  padding-top: 15px;
   text-align: center;
 }
 
@@ -423,13 +446,7 @@ $booking-background-color: rgba(219, 160, 102, .7);
   padding: 10px;
 }
 
-.about-booking-link {
-  @include span-columns(3);
-  margin-top: 0;
-}
-
 .about-footer {
-  position: absolute;
-  bottom: 0;
+  margin-top: 50px;
   background-color: #566300;
 }
