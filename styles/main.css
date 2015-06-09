@@ -392,13 +392,85 @@ footer {
   color: white; }
 
 .booking-footer {
-  margin-top: 35px;
+  position: absolute;
+  bottom: 0;
   background-color: #c09b3f; }
 
 /* About Page */
 .about-body {
   background-image: url("../images/sheep.jpg");
   background-position: center center;
-  background-size: cover; }
+  background-size: cover;
+  color: white; }
+
+.about-main-nav {
+  background-color: #a3aa81; }
+
+.about-heading {
+  padding-top: 80px;
+  text-align: center;
+  font-size: 40px; }
+
+.about-text {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-left: 17.05961%;
+  text-align: center;
+  background-color: rgba(170, 175, 58, 0.6);
+  border: solid white 3px;
+  border-radius: 15px; }
+  .about-text:last-child {
+    margin-right: 0; }
+
+.schedule {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  margin-left: 8.5298%;
+  background-color: rgba(170, 175, 58, 0.6);
+  border: solid white 3px;
+  border-radius: 15px; }
+  .schedule:last-child {
+    margin-right: 0; }
+
+.schedule-heading {
+  text-align: center; }
+
+.schedule-list-item {
+  display: block;
+  padding-top: 15px; }
+
+.activities {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  margin-left: 17.05961%;
+  background-color: rgba(170, 175, 58, 0.6);
+  border: solid white 3px;
+  border-radius: 15px;
+  text-align: center; }
+  .activities:last-child {
+    margin-right: 0; }
+
+.activity {
+  padding: 10px; }
+
+.about-booking-link {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  margin-top: 0; }
+  .about-booking-link:last-child {
+    margin-right: 0; }
+
+.about-footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #566300; }
 
 /*# sourceMappingURL=main.css.map */

@@ -358,7 +358,8 @@ $booking-background-color: rgba(219, 160, 102, .7);
 }
 
 .booking-footer {
-  margin-top: 35px;
+  position: absolute;
+  bottom: 0;
   background-color: #c09b3f;
 }
 
@@ -368,4 +369,67 @@ $booking-background-color: rgba(219, 160, 102, .7);
   background-image: url('../images/sheep.jpg');
   background-position: center center;
   background-size: cover;
+  color: white;
+}
+
+.about-main-nav {
+  background-color: #a3aa81;
+}
+
+.about-heading {
+  padding-top: 80px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.about-text {
+  @include span-columns(4);
+  @include shift(2);
+  text-align: center;
+  background-color: rgba(170, 175, 58, .6);
+  border: solid white 3px;
+  border-radius: 15px;
+
+
+}
+
+.schedule {
+  @include span-columns(3);
+  @include shift(1);
+  background-color: rgba(170, 175, 58, .6);
+  border: solid white 3px;
+  border-radius: 15px;
+}
+
+.schedule-heading {
+  text-align: center;
+}
+
+.schedule-list-item {
+  display: block;
+  padding-top: 15px;
+}
+
+.activities {
+  @include span-columns(8);
+  @include shift(2);
+  background-color: rgba(170, 175, 58, .6);
+  border: solid white 3px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.activity {
+  padding: 10px;
+}
+
+.about-booking-link {
+  @include span-columns(3);
+  margin-top: 0;
+}
+
+.about-footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #566300;
 }
