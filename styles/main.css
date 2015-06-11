@@ -412,6 +412,9 @@ footer {
 .about-main-nav {
   background-color: #a3aa81; }
 
+.about-main-nav-link:hover {
+  color: #bec034; }
+
 .about-heading {
   padding-top: 80px;
   text-align: center;
@@ -492,6 +495,9 @@ footer {
 .about-footer {
   margin-top: 50px;
   background-color: #566300; }
+
+.about-bottom-nav-link:hover {
+  color: #cfbf2c; }
 
 /* Contact Page */
 .contact-body {
