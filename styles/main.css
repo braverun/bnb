@@ -131,16 +131,16 @@ header:before {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 82.94039%;
-  margin-left: 8.5298%; }
+  width: 65.88078%;
+  margin-left: 17.05961%; }
   .main-nav-ul:last-child {
     margin-right: 0; }
 
 .main-nav-li {
   float: left;
   display: block;
-  margin-right: 2.84259%;
-  width: 17.72593%;
+  margin-right: 3.57866%;
+  width: 22.316%;
   text-align: center; }
   .main-nav-li:last-child {
     margin-right: 0; }
@@ -292,8 +292,8 @@ footer {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 82.94039%;
-  margin-left: 8.5298%;
+  width: 65.88078%;
+  margin-left: 17.05961%;
   text-align: center; }
   .bottom-nav:last-child {
     margin-right: 0; }
@@ -301,8 +301,8 @@ footer {
 .bottom-nav-li {
   float: left;
   display: block;
-  margin-right: 2.84259%;
-  width: 17.72593%; }
+  margin-right: 3.57866%;
+  width: 22.316%; }
   .bottom-nav-li:last-child {
     margin-right: 0; }
 
@@ -486,5 +486,58 @@ footer {
 .about-footer {
   margin-top: 50px;
   background-color: #566300; }
+
+/* Contact Page */
+.contact-body {
+  background-image: url("../images/grapes.jpg");
+  background-position: center center;
+  background-size: cover; }
+
+.contact-heading {
+  text-align: center; }
+
+.contact-form {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  margin-left: 17.05961%;
+  background-color: rgba(47, 50, 78, 0.6);
+  padding: 20px;
+  color: white; }
+  .contact-form:last-child {
+    margin-right: 0; }
+
+.name-container {
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 48.21067%;
+  display: inline; }
+  .name-container:last-child {
+    margin-right: 0; }
+  .name-container:nth-child(1) {
+    margin-right: 0; }
+
+.input-container {
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 100%;
+  display: block; }
+  .input-container:last-child {
+    margin-right: 0; }
+
+.contact-label {
+  display: block; }
+
+.name-input {
+  width: 80%; }
+
+.email-input {
+  width: 87%; }
+
+.message-input {
+  width: 87%; }
 
 /*# sourceMappingURL=main.css.map */

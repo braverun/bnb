@@ -128,12 +128,12 @@ header:before {
 }
 
 .main-nav-ul {
-  @include span-columns(10);
-  @include shift(1);
+  @include span-columns(8);
+  @include shift(2);
 }
 
 .main-nav-li {
-  @include span-columns(2 of 10);
+  @include span-columns(2 of 8);
   text-align: center;
 }
 
@@ -257,13 +257,13 @@ footer {
 }
 
 .bottom-nav {
-  @include span-columns(10 of 12);
-  @include shift(1);
+  @include span-columns(8 of 12);
+  @include shift(2);
   text-align: center;
 }
 
 .bottom-nav-li {
-  @include span-columns(2 of 10);
+  @include span-columns(2 of 8);
 }
 
 .bottom-nav-link {
@@ -449,4 +449,52 @@ $about-background-color: rgba(170, 175, 58, .7);
 .about-footer {
   margin-top: 50px;
   background-color: #566300;
+}
+
+/* Contact Page */
+
+.contact-body {
+  background-image: url('../images/grapes.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.contact-heading {
+  text-align: center;
+}
+
+.contact-form {
+  @include span-columns(8);
+  @include shift(2);
+  background-color: rgba(47, 50, 78, .6);
+  padding: 20px;
+  color: white;
+}
+
+.name-container {
+  @include span-columns(4 of 8);
+  @include omega(1);
+  display: inline;
+}
+
+.input-container {
+  @include span-columns(8 of 8);
+  display: block;
+
+}
+
+.contact-label {
+  display: block;
+}
+
+.name-input {
+  width: 80%;
+}
+
+.email-input {
+  width: 87%;
+}
+
+.message-input {
+  width: 87%;
 }
