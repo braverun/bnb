@@ -322,6 +322,9 @@ footer {
 .main-nav-booking {
   background-color: #8fc1e2; }
 
+.booking-main-nav-link:hover {
+  color: #f6d490; }
+
 .booking-heading {
   padding-top: 80px;
   text-align: center;
@@ -395,6 +398,9 @@ footer {
   position: absolute;
   bottom: 0;
   background-color: #c09b3f; }
+
+.booking-bottom-nav-link:hover {
+  color: #292d14; }
 
 /* About Page */
 .about-body {
